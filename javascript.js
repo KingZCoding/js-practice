@@ -69,3 +69,9 @@ const myNum2 = 123;
 const myString2 = String(myNum2);
 console.log(typeof myString2);
 //string
+
+if (hour < 1800){
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
